@@ -1,0 +1,43 @@
+Patch "Trail Colour" by "ĐeäTh"
+// Singleplayer
+Write<uint>(ASLR(0x00FB5A08), 0xFF0067FF)
+
+// Multiplayer P1
+Write<uint>(ASLR(0x00FB5A0C), 0xFF0067FF)
+
+// Multiplayer P2
+Write<uint>(ASLR(0x00FB5A10), 0xFF0067FF)
+
+Patch "Parkour Trail Colour" by "ĐeäTh"
+// Singleplayer
+Write<float>(ASLR(0x00FB5B00), 2.5f)
+Write<float>(ASLR(0x00FB5B04), 1)
+Write<float>(ASLR(0x00FB5B08), 0)
+Write<float>(ASLR(0x00FB5B0C), 2.15f)
+Write<float>(ASLR(0x00FB5B10), 1.45f)
+Write<float>(ASLR(0x00FB5B14), 0)
+Write<float>(ASLR(0x00FB5B18), 1.8f)
+Write<float>(ASLR(0x00FB5B1C), 1.225f)
+Write<float>(ASLR(0x00FB5B20), 0)
+
+// Multiplayer P1
+Write<float>(ASLR(0x00FB5B24), 2.5f)
+Write<float>(ASLR(0x00FB5B28), 1)
+Write<float>(ASLR(0x00FB5B2C), 0)
+Write<float>(ASLR(0x00FB5B30), 2.15f)
+Write<float>(ASLR(0x00FB5B34), 1.45f)
+Write<float>(ASLR(0x00FB5B38), 0)
+Write<float>(ASLR(0x00FB5B3C), 1.8f)
+Write<float>(ASLR(0x00FB5B40), 1.225f)
+Write<float>(ASLR(0x00FB5B44), 0)
+
+// Multiplayer P2
+Write<float>(ASLR(0x00FB5B48), 2.5f)
+Write<float>(ASLR(0x00FB5B4C), 1)
+Write<float>(ASLR(0x00FB5B50), 0)
+Write<float>(ASLR(0x00FB5B54), 2.15f)
+Write<float>(ASLR(0x00FB5B58), 1.45f)
+Write<float>(ASLR(0x00FB5B5C), 0)
+Write<float>(ASLR(0x00FB5B60), 1.8f)
+Write<float>(ASLR(0x00FB5B64), 1.225f)
+Write<float>(ASLR(0x00FB5B68), 0)

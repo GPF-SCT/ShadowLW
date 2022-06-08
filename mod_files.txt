@@ -1,0 +1,3 @@
+add slw-shadow.dll
+add HomingColor.hmm
+add mod.ini
